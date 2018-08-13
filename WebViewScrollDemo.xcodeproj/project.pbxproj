@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734282B07EEECC82E4EA0D1A /* libPods-WebViewScrollDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 587D0041F2D79F3344B47C91 /* libPods-WebViewScrollDemo.a */; };
 		DC3ED3252119972E0003B154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3ED3242119972E0003B154 /* AppDelegate.m */; };
 		DC3ED3282119972F0003B154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3ED3272119972F0003B154 /* ViewController.m */; };
 		DC3ED32B2119972F0003B154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3ED3292119972F0003B154 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		DC3ED33D2119972F0003B154 /* WebViewScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3ED33C2119972F0003B154 /* WebViewScrollDemoTests.m */; };
 		DC3ED348211997300003B154 /* WebViewScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3ED347211997300003B154 /* WebViewScrollDemoUITests.m */; };
 		DC3ED357211998990003B154 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3ED356211998990003B154 /* WebViewController.m */; };
+		DC7D3230211C32690096E80D /* CXWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7D322F211C32690096E80D /* CXWebView.m */; };
+		DC7D3233211C3A100096E80D /* CXWebContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7D3232211C3A100096E80D /* CXWebContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		587D0041F2D79F3344B47C91 /* libPods-WebViewScrollDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebViewScrollDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		722F2D2222098DC13D0242FC /* Pods-WebViewScrollDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewScrollDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebViewScrollDemo/Pods-WebViewScrollDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D07E1FB1532693FE140DA979 /* Pods-WebViewScrollDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewScrollDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebViewScrollDemo/Pods-WebViewScrollDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DC3ED3202119972E0003B154 /* WebViewScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3ED3232119972E0003B154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC3ED3242119972E0003B154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,10 @@
 		DC3ED349211997300003B154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3ED355211998990003B154 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		DC3ED356211998990003B154 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DC7D322E211C32690096E80D /* CXWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXWebView.h; sourceTree = "<group>"; };
+		DC7D322F211C32690096E80D /* CXWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWebView.m; sourceTree = "<group>"; };
+		DC7D3231211C3A100096E80D /* CXWebContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXWebContainerView.h; sourceTree = "<group>"; };
+		DC7D3232211C3A100096E80D /* CXWebContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXWebContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734282B07EEECC82E4EA0D1A /* libPods-WebViewScrollDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20EE8A9CEF27A26C5747824A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				587D0041F2D79F3344B47C91 /* libPods-WebViewScrollDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E04B14E3FC74DBEF1F4347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07E1FB1532693FE140DA979 /* Pods-WebViewScrollDemo.debug.xcconfig */,
+				722F2D2222098DC13D0242FC /* Pods-WebViewScrollDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC3ED3172119972E0003B154 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				DC3ED33B2119972F0003B154 /* WebViewScrollDemoTests */,
 				DC3ED346211997300003B154 /* WebViewScrollDemoUITests */,
 				DC3ED3212119972E0003B154 /* Products */,
+				A5E04B14E3FC74DBEF1F4347 /* Pods */,
+				20EE8A9CEF27A26C5747824A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,10 @@
 				DC3ED3272119972F0003B154 /* ViewController.m */,
 				DC3ED355211998990003B154 /* WebViewController.h */,
 				DC3ED356211998990003B154 /* WebViewController.m */,
+				DC7D3231211C3A100096E80D /* CXWebContainerView.h */,
+				DC7D3232211C3A100096E80D /* CXWebContainerView.m */,
+				DC7D322E211C32690096E80D /* CXWebView.h */,
+				DC7D322F211C32690096E80D /* CXWebView.m */,
 				DC3ED3292119972F0003B154 /* Main.storyboard */,
 				DC3ED32C2119972F0003B154 /* Assets.xcassets */,
 				DC3ED32E2119972F0003B154 /* LaunchScreen.storyboard */,
@@ -144,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC3ED34C211997300003B154 /* Build configuration list for PBXNativeTarget "WebViewScrollDemo" */;
 			buildPhases = (
+				091905D5C0861024527138C2 /* [CP] Check Pods Manifest.lock */,
 				DC3ED31C2119972E0003B154 /* Sources */,
 				DC3ED31D2119972E0003B154 /* Frameworks */,
 				DC3ED31E2119972E0003B154 /* Resources */,
@@ -265,12 +300,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		091905D5C0861024527138C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewScrollDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC3ED31C2119972E0003B154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7D3233211C3A100096E80D /* CXWebContainerView.m in Sources */,
 				DC3ED3282119972F0003B154 /* ViewController.m in Sources */,
+				DC7D3230211C32690096E80D /* CXWebView.m in Sources */,
 				DC3ED3332119972F0003B154 /* main.m in Sources */,
 				DC3ED3252119972E0003B154 /* AppDelegate.m in Sources */,
 				DC3ED357211998990003B154 /* WebViewController.m in Sources */,
@@ -440,9 +498,11 @@
 		};
 		DC3ED34D211997300003B154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07E1FB1532693FE140DA979 /* Pods-WebViewScrollDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYESWERZUZ;
 				INFOPLIST_FILE = WebViewScrollDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -454,9 +514,11 @@
 		};
 		DC3ED34E211997300003B154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722F2D2222098DC13D0242FC /* Pods-WebViewScrollDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYESWERZUZ;
 				INFOPLIST_FILE = WebViewScrollDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
